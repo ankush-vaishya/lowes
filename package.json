@@ -1,7 +1,7 @@
 {
   "name": "lowes",
   "version": "0.1.0",
-  "homepage": "https://ankush-vaishya.github.io//lowes",
+  "homepage": "https://ankush-vaishya.github.io/lowes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
