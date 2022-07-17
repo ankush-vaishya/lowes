@@ -13,7 +13,7 @@ function App() {
         params: { query: searchString },
       }).then((res) => {
         setImageListData(res?.data?.results);
-      })
+      }).catch(() => alert('Something went wrong. Please try after sometime.'))
     } else {
       setImageListData([]);
     }
