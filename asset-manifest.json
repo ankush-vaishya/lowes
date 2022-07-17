@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//lowes/static/css/main.10294caa.css",
-    "main.js": "//lowes/static/js/main.2be0a888.js",
-    "static/js/787.7279b5cd.chunk.js": "//lowes/static/js/787.7279b5cd.chunk.js",
-    "static/media/pattern.webp": "//lowes/static/media/pattern.1a39fd32932f91d60144.webp",
-    "index.html": "//lowes/index.html",
-    "main.10294caa.css.map": "//lowes/static/css/main.10294caa.css.map",
-    "main.2be0a888.js.map": "//lowes/static/js/main.2be0a888.js.map",
-    "787.7279b5cd.chunk.js.map": "//lowes/static/js/787.7279b5cd.chunk.js.map"
+    "main.css": "/lowes/static/css/main.22630f82.css",
+    "main.js": "/lowes/static/js/main.cc66f734.js",
+    "static/js/787.7279b5cd.chunk.js": "/lowes/static/js/787.7279b5cd.chunk.js",
+    "static/media/pattern.webp": "/lowes/static/media/pattern.1a39fd32932f91d60144.webp",
+    "index.html": "/lowes/index.html",
+    "main.22630f82.css.map": "/lowes/static/css/main.22630f82.css.map",
+    "main.cc66f734.js.map": "/lowes/static/js/main.cc66f734.js.map",
+    "787.7279b5cd.chunk.js.map": "/lowes/static/js/787.7279b5cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10294caa.css",
-    "static/js/main.2be0a888.js"
+    "static/css/main.22630f82.css",
+    "static/js/main.cc66f734.js"
   ]
 }
