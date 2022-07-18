@@ -9,11 +9,15 @@ function SearchbarComponent({ onSearchSubmit }) {
     return (
         <section className="searchbar-section">
             <form onSubmit={onFormSubmit}>
-                <label>Search</label>
-                <input className="search-input" onClick={(event) => console.log('asdfasdfasdfa---------------->', event)} onChange={(_e) => setSearchString(_e.target.value)} value={searchString} type='search' placeholder="Search photo" />
-                {/* <button type="button" value='x' /> */}
+                <div className="form-group">
+                    <label>Search</label>
+                    <input className="search-input" onChange={(_e) => setSearchString(_e.target.value)} value={searchString} type='text' placeholder="Search photo" />
+                    {searchString.length > 0 && (
+                        <button type="button" className="clear-btn" onClick={() => { onSearchSubmit(''); setSearchString('') }}> x </button>
+                    )}
+                </div>
             </form>
-        </section>
+        </section >
     );
 }
 

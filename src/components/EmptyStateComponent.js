@@ -5,7 +5,7 @@ function EmptyStateComponent() {
                 No data found.
             </h3>
             <p>
-                Please enter keyword in searchbox above.
+                Please enter valid keyword in searchbox above.
             </p>
         </div>
     );
